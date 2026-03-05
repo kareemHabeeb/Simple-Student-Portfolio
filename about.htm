@@ -4,73 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Karla:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="about.css" />
   </head>
-
   <body>
-    <section class="wrapper">
-      <div class="wrapper_holder">
-        <header class="header">
-          <div class="header-wrap">
-            <img
-              class="logo"
-              src="https://www.the-curve.africa/assets/curve1-a21fb9d4.png"
-              alt=""
-            />
-            <nav class="text_holder">
-              <a href="/project.html">Home</a>
-              <a href="/about.html">About</a>
-              <a href="/contact.html">Contacts</a>
-            </nav>
-            <div class="buttons">
-              <button class="button-btn" type="submit">Hire Me</button>
-              <button class="button-btns" type="submit">View Details</button>
-            </div>
-          </div>
-        </header>
-        <section class="about">
-          <h1>About Me</h1>
-
-          <p>
-            Hello! I am a passionate student learning web development. I love
-            creating simple and interactive websites that are visually appealing
-            and user-friendly. This portfolio showcases my work, skills, and
-            interests.
-          </p>
-
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML, CSS, and JavaScript</li>
-            <li>Responsive Web Design</li>
-            <li>Basic Python and SQL</li>
-            <li>Version Control with Git</li>
-            <li>UI/UX Design Concepts</li>
-          </ul>
-
-          <h2>Hobbies & Interests</h2>
-          <p>
-            When I'm not coding, I enjoy reading technology blogs, designing
-            simple graphics, and exploring new tools for web development. I also
-            love learning new languages and problem-solving challenges.
-          </p>
-
-          <h2>My Goals</h2>
-          <p>
-            My goal is to become a skilled full-stack developer, create
-            meaningful web applications, and contribute to projects that make
-            learning and information accessible to everyone.
-          </p>
-
-          <blockquote>
-            "Learning never exhausts the mind; it only expands it." – Leonardo
-            da Vinci
-          </blockquote>
-        </section>
-
-        <footer>
-          <p>© 2026 Group 4 Student Portfolio Colaboration</p>
-        </footer>
+    <header class="header">
+      <div class="header-wrap">
+        <img
+          class="logo"
+          src="https://www.the-curve.africa/assets/curve1-a21fb9d4.png"
+          alt=""
+        />
+        <nav class="text_holder">
+          <a href="/project.html">Home</a>
+          <a href="/about.htm">About</a>
+          <a href="/contact.html">Contacts</a>
+        </nav>
+        <div class="buttons">
+          <button class="button-btn" type="submit">Hire Me</button>
+          <button class="button-btns" type="submit">View Details</button>
+        </div>
       </div>
-    </section>
+    </header>
+    <main class="about">
+      <section class="about__visual">
+        <span class="about__portrait-img">
+          <img
+            src="https://i.pinimg.com/1200x/a8/62/2a/a8622ae5703fb1e8181c714f00ff1347.jpg"
+            alt=""
+          />
+        </span>
+      </section>
+
+      <section class="about__content">
+        <h1 class="about__eyebrow">About</h1>
+        <h1 class="about__title">Group 4 Github Collaboration</h1>
+        <p class="about__subtitle">Backend and Frontend</p>
+
+        <div class="about__divider"></div>
+
+        <p class="about__bio">
+          We craft thoughtful digital experiences that balance form and function.
+          With over a decade in the industry, our work spans brand identity,
+          editorial design, and creative direction for studios worldwide.
+        </p>
+        <p class="about__bio">
+          Based in Lagos, We believe in the quiet power of restraint—designs that
+          breathe, typography that speaks, and spaces that invite pause.
+          Currently accepting select projects for 2026.
+        </p>
+
+        <nav class="about__contact">
+          <a href="mailto:hello@example.com" class="about__link">Email</a>
+          <a href="#" class="about__link">Work</a>
+          <a href="#" class="about__link">LinkedIn</a>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Student Portfolio</p>
+    </footer>
   </body>
 </html>

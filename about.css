@@ -74,50 +74,96 @@
   border: 1px solid black;
 }
 
-/* ABOUT SECTION */
 .about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 90px 80px;
-  gap: 80px;
-}
-
-/* LEFT TEXT AREA */
-.about_text {
-  flex: 1;
-}
-
-.about_text h1 {
-  font-size: 48px;
-  margin-bottom: 25px;
-  font-weight: 700;
-}
-
-.about_text p {
-  font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 20px;
-  color: #555;
-}
-
-/* RIGHT IMAGE */
-.about_image {
-  flex: 1;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 85.5vh;
   justify-content: center;
+  align-items: center;
+
 }
 
-.about_image img {
+.about__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  width: 70%;
+  height: 100%;
+}
+
+
+.about__portrait-img img {
   width: 100%;
-  max-width: 420px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  height: 100%;
 }
 
-/* FOOTER */
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 5rem;
+  max-width: 640px;
+}
+
+.about__eyebrow {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.about__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.about__subtitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.about__divider {
+  width: 48px;
+  height: 1px;
+}
+
+.about__bio {
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a4a47;
+  margin-bottom: 1.5rem;
+}
+
+.about__bio:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.about__contact {
+  display: flex;
+  gap: 2rem;
+}
+
+.about__link {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--ink);
+}
+
 footer {
-  margin-top: 80px;
   padding: 25px;
   text-align: center;
   background: #111;
