@@ -1,0 +1,171 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 7vh;
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrap {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+}
+
+.text_holder {
+  display: flex;
+  width: 38%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text_holder a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.text_holder a:hover {
+  color: #0077ff;
+}
+
+.buttons {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button-btns {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 85.5vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  width: 70%;
+  height: 100%;
+}
+
+
+.about__portrait-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 5rem;
+  max-width: 640px;
+}
+
+.about__eyebrow {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.about__title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.about__subtitle {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.about__divider {
+  width: 48px;
+  height: 1px;
+}
+
+.about__bio {
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a4a47;
+  margin-bottom: 1.5rem;
+}
+
+.about__bio:last-of-type {
+  margin-bottom: 3rem;
+}
+
+.about__contact {
+  display: flex;
+  gap: 2rem;
+}
+
+.about__link {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #111;
+  color: white;
+}
