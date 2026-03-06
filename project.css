@@ -165,7 +165,7 @@
 .work {
   width: 90%;
   height: 20vh;
-  /* background: blue; */
+  
   display: flex;
   align-items: center;
   justify-content: center;
